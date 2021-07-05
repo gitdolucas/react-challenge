@@ -1,0 +1,20 @@
+.tableContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+th {
+        padding: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+        font-weight: 400;
+        border-radius: 4px;
+}
+td {
+    padding: 12px;
+        text-align: left;
+        background-color: #77da77;
+        color: rgb(21, 45, 71);
+        font-weight: 700;
+}
