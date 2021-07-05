@@ -13,7 +13,6 @@ const TableComponent = () => {
 
     function newTr( dataSet, dictKey ){
         if(typeof dataSet[dictKey] !== 'object'){
-
             return(
                 <tr key={dictKey}>
                     <th>{dictKey}</th>
@@ -31,7 +30,6 @@ const TableComponent = () => {
     }
 
     function tableUp( dataSet ) {
-        console.log(dataSet)
         return (
             <table>
                 <tbody>
