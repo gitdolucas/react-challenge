@@ -4,7 +4,7 @@
     justify-content: center;
 }
 th {
-        padding: 12px;
+        padding: 3px 10px;
         text-align: left;
         background-color: #04AA6D;
         color: white;
@@ -12,7 +12,7 @@ th {
         border-radius: 4px;
 }
 td {
-    padding: 12px;
+    padding: 3px 10px;
         text-align: left;
         background-color: #77da77;
         color: rgb(21, 45, 71);
