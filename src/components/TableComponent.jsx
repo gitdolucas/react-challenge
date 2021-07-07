@@ -1,13 +1,16 @@
 import {useState, useEffect} from 'react';
-import '../styles/TableComponent.css'
+import '../styles/TableComponent.css';
+import TableContent from '../jsons/TableContent';
 
 const TableComponent = () => {
     const [ data, setData ] = useState({});
 
     useEffect(() => {
-        fetch("http://api.worldbank.org/v2/country/br?format=json")
-            .then( response => response.json())
-            .then( data => setData(data));
+        // fetch("http://api.worldbank.org/v2/country/br?format=json")
+        //     .then( response => response.json())
+        //     .then( data => setData(data));
+
+        setData(TableContent)
     }, []);
 
 
