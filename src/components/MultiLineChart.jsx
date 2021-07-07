@@ -6,12 +6,12 @@ const MultiLineChart = () => {
     const [precipitation, setPrecipitation] = useState([])
 
     async function getAndSetTemperature() {
-        fetch("http://climatedataapi.worldbank.org/climateweb/rest/v1/country/cru/tas/year/bra")
+        fetch("https://climatedataapi.worldbank.org/climateweb/rest/v1/country/cru/tas/year/bra")
             .then(response => response.json())
             .then(data => setTemperature(data))
     }
     function getAndSetPrecipitation() {
-        fetch("http://climatedataapi.worldbank.org/climateweb/rest/v1/country/cru/pr/year/bra")
+        fetch("https://climatedataapi.worldbank.org/climateweb/rest/v1/country/cru/pr/year/bra")
             .then(response => response.json())
             .then(data => setPrecipitation(data))
     }
